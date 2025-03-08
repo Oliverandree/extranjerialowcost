@@ -55,6 +55,7 @@ header {
 /* Navegación */
 nav {
   display: flex;
+  margin-top: 15px;
 }
 
 nav a {
