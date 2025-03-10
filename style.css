@@ -326,6 +326,14 @@ footer a:hover {
 }
 
 /* Media Queries */
+
+@media (min-width: 768px) {
+  .services-section {
+    padding: 120px 20px;}
+  
+}
+
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -638,7 +646,7 @@ body, html {
 /* Responsividad */
 @media (min-width: 768px) {
     .about-us {
-        padding: 60px 30px;
+        padding: 150px 30px;
     }
 
     .about-us h1 {
@@ -691,6 +699,14 @@ body {
     color: #333;
 }
 
+
+
+@media (min-width: 768px) {
+  #direccion {
+    padding: 400px 20px;}
+    
+}
+
 /* Estilos para el mapa */
 .mapa {
     margin-top: 20px;
@@ -738,7 +754,7 @@ body {
 /* Estilos responsivos */
 @media (min-width: 768px) {
     .faq-section {
-        padding: 40px 80px;
+        padding: 200px 80px 420px 80px ;
     }
 
     .faq-section h2 {
@@ -789,7 +805,11 @@ body {
 }
 
 /* Estilos responsivos */
+
+
 @media (min-width: 768px) {
+
+  .about-section { padding: 200px 80px 400px 80px;}
     .about-text h2 {
         font-size: 2.5rem;
     }
